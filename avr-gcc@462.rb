@@ -52,8 +52,8 @@ def version_suffix
       "--libdir=#{lib}/avr-gcc/#{version_suffix}",
 
       "--enable-languages=#{languages.join(",")}",
-      "--with-ld=#{Formula["avr-binutils"].opt_bin/"avr-ld"}",
-      "--with-as=#{Formula["avr-binutils"].opt_bin/"avr-as"}",
+      "--with-ld=#{Formula["fiercekittenclaw/homebrew-avr/avr-binutils"].opt_bin/"avr-ld"}",
+      "--with-as=#{Formula["fiercekittenclaw/homebrew-avr/avr-binutils"].opt_bin/"avr-as"}",
 
       "--disable-nls",
       "--disable-libssp",
