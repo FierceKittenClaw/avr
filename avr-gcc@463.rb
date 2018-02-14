@@ -1,11 +1,11 @@
-class AvrGccAT462 < Formula
+class AvrGccAT463 < Formula
   desc "GNU compiler collection for AVR 8-bit and 32-bit Microcontrollers"
   homepage "https://www.gnu.org/software/gcc/gcc.html"
 
   stable do
-    url "ftp://ftp.gnu.org/gnu/gcc/gcc-4.6.2/gcc-4.6.2.tar.gz"
-    mirror "https://ftp.gnu.org/gnu/gcc/gcc-4.6.2/gcc-4.6.2.tar.gz"
-    sha256 "abd138fbcef094b8122905f7d9141b142c308bec9248e6afb70b33f80285c564"
+    url "ftp.gnu.org/gnu/gcc/gcc-4.6.3/gcc-4.6.3.tar.gz"
+    mirror "https://ftp.gnu.org/gnu/gcc/gcc-4.6.3/gcc-4.6.3.tar.gz"
+    sha256 "3122a8f1a30106034ec70bad633c3fd899d8b6a1216c723f0f03be22c2fe65b0"
   end
 
   keg_only "it might interfere with other version of avr-gcc. This is useful if you want to have multiple version of avr-gcc installed on the same machine"
@@ -24,8 +24,8 @@ class AvrGccAT462 < Formula
   depends_on "fiercekittenclaw/homebrew-avr/avr-binutils"
 
   resource "avr-libc" do
-    url "https://download.savannah.gnu.org/releases/avr-libc/avr-libc-2.0.0.tar.bz2"
-    sha256 "b2dd7fd2eefd8d8646ef6a325f6f0665537e2f604ed02828ced748d49dc85b97"
+    url "https://download.savannah.gnu.org/releases/avr-libc/avr-libc-1.8.1.tar.bz2"
+    sha256 "c3062a481b6b2c6959dc708571c00b0e26301897ba21171ed92acd0af7c4a969"
   end
 
 def version_suffix
