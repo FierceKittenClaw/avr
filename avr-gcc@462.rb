@@ -21,7 +21,7 @@ class AvrGccAT462 < Formula
   depends_on "libmpc"
   depends_on "mpfr"
 
-  depends_on "fiercekittenclaw/avr/avr-binutils"
+  depends_on "fiercekittenclaw/homebrew-avr/avr-binutils"
 
   resource "avr-libc" do
     url "https://download.savannah.gnu.org/releases/avr-libc/avr-libc-2.0.0.tar.bz2"
