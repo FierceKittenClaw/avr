@@ -3,9 +3,9 @@ class AvrGccAT4 < Formula
   homepage "https://www.gnu.org/software/gcc/gcc.html"
 
   stable do
-    url "ftp://gcc.gnu.org/pub/gcc/releases/gcc-4.9.4/gcc-4.9.4.tar.bz2"
-    mirror "https://ftpmirror.gnu.org/gcc/gcc-4.9.4/gcc-4.9.4.tar.bz2"
-    sha256 "6c11d292cd01b294f9f84c9a59c230d80e9e4a47e5c6355f046bb36d4f358092"
+    url "ftp://ftp.gnu.org/gnu/gcc/gcc-4.6.2/gcc-4.6.2.tar.gz"
+    mirror "https://ftp.gnu.org/gnu/gcc/gcc-4.6.2/gcc-4.6.2.tar.gz"
+    sha256 "abd138fbcef094b8122905f7d9141b142c308bec9248e6afb70b33f80285c564"
   end
 
   keg_only "it might interfere with other version of avr-gcc. This is useful if you want to have multiple version of avr-gcc installed on the same machine"
